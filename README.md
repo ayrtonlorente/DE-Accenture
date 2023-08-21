@@ -15,7 +15,7 @@ Ayrton Lorente - Ejercicio tecnico - Accenture.ipynb: Codigo Python para el aná
 Para abordar el modelo de negocio, diseñamos un DER que incluye las siguientes entidades:
 
 Customer: Atributos como customer_id, email, nombre, apellido, etc.  
-Item: Representa productos en el marketplace. Incluye item_id, name, status, etc. Tambien se crea un indice en la columna status, esto acelerara las consultas que involucran esta columna, permitiendo búsquedas y filtrados más eficientes en nuestra base de datos.  
+Item: Representa productos en el marketplace. Incluye item_id, name, status, etc. Debido a esta parte de la consigna "Mediante el estado del ítem o fecha de baja se puede detectar los ítems activos del marketplace." se elige optar solo por el campo status para detectar los items activos. Tambien se crea un indice en la columna status, esto acelerara las consultas que involucran esta columna, permitiendo búsquedas y filtrados más eficientes en nuestra base de datos.  
 Category: Descripción de las categorías, incluye category_id, description y path.  
 Order: Registra transacciones de compra, incluye order_id, item_id, customer_id, total_amount, etc.  
 ItemEndOfDay: Contiene el precio y estado de los items a fin del día.
