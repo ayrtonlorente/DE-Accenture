@@ -23,5 +23,8 @@ ItemEndOfDay: Contiene el precio y estado de los items a fin del día.
 ## Respuestas a las preguntas
 El archivo respuestas_negocio.sql contiene consultas SQL para responder a los ejercicios 1, 2 y 3.
 
+### Inserts de prueba
+El archivo Inserts de prueba.sql contiene los ejemplos que utilice para la resolución de los ejercicios. 
+
 ## Análisis de API de Mercado Libre
 Para el análisis de la API de MercadoLibre, se proporciona el archivo Ayrton Lorente - Ejercicio tecnico - Accenture.ipynb. Este script realiza consultas a la API para obtener información sobre productos electronicos y guarda los resultados en un archivo delimitado por comas para análisis adicional en un hipotético dashboard.
